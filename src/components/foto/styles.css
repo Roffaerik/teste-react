@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display = swap');
+
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: goldenrod;
+    font-size: 17px;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.fotos-1 {
+    background-image: url(https://i.iplsc.com/arcane-2-wszystko-co-wiemy-o-drugim-sezonie-serialu-riot-gam/000FTJGJ7SEJMHLI-C321.jpg);
+}
+
+.fotos-2 {
+    background-image: url(https://preview.redd.it/w6rfahrkt4981.png?width=640&crop=smart&auto=webp&s=1952780cbb0563439db9a88d097f7799b6439992);
+}
+
+.fotos-3 {
+    background-image: url(https://sm.ign.com/ign_br/review/a/arcane-sea/arcane-season-1-review_2kfz.jpg);
+}
+
+.banner-4 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWUXhMqANcL0n7iQCSM8TiAvsXig3igk5Vbg&usqp=CAU);
+}
+
+.banner-5 {
+    background-image: url(https://cdn.oneesports.gg/cdn-data/2022/11/LeagueofLegends_Arcane_Vi_Caitlyn_Kabedon.jpg);
+}
+
+.banner-6 {
+    background-image: url(https://onlygames.com.ar/wp-content/uploads/2021/11/1920x1080-1-1170x658.png);
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    .content {
+        width: 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

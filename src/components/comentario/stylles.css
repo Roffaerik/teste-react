@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display = swap');
+
+
+#banner1 {
+    background-image: url(https://www.promoview.com.br/images/2021/11/05/lol-arcane-new-york-1536x712.jpg);
+     background-size: cover;
+     background: auto;
+     width: 100%;
+     height: 100%;
+}
+
+.parent {
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+.child {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 2px black solid;
+    color: #fff;
+    background: black;
+    display: grid;
+    place-items: center;
+    border-radius: .6rem;
+}
+#meu_form1 {
+    font-family: 'kdam Thmor Pro', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
